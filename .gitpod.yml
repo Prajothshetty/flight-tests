@@ -1,0 +1,7 @@
+# .gitpod.yml
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: pip3 install --user -r requirements.txt
+    command: python3 flight_test.py
